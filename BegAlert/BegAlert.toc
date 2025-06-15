@@ -1,0 +1,15 @@
+## Interface: 42691
+## Title: BegAlert
+## Notes: Automatically notifies the player when attunable item is offered in chat.
+## Author: LiquidAP
+## Version: 1.2
+## OptionalDeps: Ace3, LinkWrangler, SynastriaCoreLib
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\SynastriaCoreLib-1.0\SynastriaCoreLib-1.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+#@end-no-lib-strip@
+
+BegAlert.lua
